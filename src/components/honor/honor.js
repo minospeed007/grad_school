@@ -1,3 +1,10 @@
+import best_com from '../../assests/best_com.jpg';
+import best_foreign from '../../assests/best_foreign.jpg';
+import overall_best from '../../assests/overall_best.jpg';
+import src_p from '../../assests/src.jpg';
+
+
+
 
 import './honor.css';
 
@@ -11,11 +18,11 @@ const Honor=()=>{
       <div className='overall'>
         <div className='text-div'>
         <div className='img-div'>
-            <img src='' alt='img'/>
+            <img src={overall_best} alt='img' className='awards-img'/>
 
         </div>
         <div className='award-text-didv'>
-        <h3>Overall Best Graduating Student Award</h3>
+        <h3 className='h3-honor'>Overall Best Graduating Student Award</h3>
     <div className='award-p-div'>
             <p className='award-p'>
             In August 2024, I was honored to receive the prestigious Overall Best Graduating Student Award at Dominion University College.
@@ -29,11 +36,11 @@ const Honor=()=>{
         
         <div className='text-div'>
         <div className='img-div'>
-            <img src='' alt='img'/>
+            <img src={best_com} alt='img' className='awards-img'/>
 
         </div>
             <div className='award-text-didv'>
-        <h3>Best Graduating Computer Science Student Award</h3>
+        <h3 className='h3-honor'>Best Computer Science Student Award</h3>
         <div className='award-p-div'>
 
             <p>
@@ -47,11 +54,11 @@ const Honor=()=>{
         </div>
         <div className='text-div'>
         <div className='img-div'>
-            <img src='' alt='img'/>
+            <img src={best_foreign} alt='img' className='awards-img'/>
 
         </div>
             <div className='award-text-didv'>
-        <h3>Best Foreign Student Award</h3>
+        <h3 className='h3-honor'>Best Foreign Student Award</h3>
         <div className='award-p-div'>
 
 
@@ -68,11 +75,11 @@ const Honor=()=>{
         
         <div className='text-div'>
         <div className='img-div'>
-            <img src='' alt='img'/>
+            <img src={src_p} alt='img' className='awards-img'/>
 
         </div>
             <div className='award-text-didv'>
-        <h3>SRC Best Programmer Award</h3>
+        <h3 className='h3-honor'>SRC Best Programmer Award</h3>
         <div className='award-p-div'>
 
             <p>
